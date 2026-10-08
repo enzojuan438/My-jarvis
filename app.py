@@ -27,5 +27,5 @@ else:
             try:
                 response = model.generate_content(comando)
                 st.markdown(f"<h3>🤖 J.A.R.V.I.S.:</h3> <p style='font-size:18px;'>{response.text}</p>", unsafe_allow_html=True)
-            except Exception as e:
-                st.error(f"Erro nos sistemas, 
+            except Exception as e:                
+st.error(f"Erro nos sistemas, Senhor. Detalhes: {e}")
