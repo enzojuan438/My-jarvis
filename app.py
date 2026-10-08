@@ -31,3 +31,4 @@ else:
         with st.spinner("Processando criptografia..."):
             response = model.generate_content(comando)
             st.write(f"🤖 J.A.R.V.I.S.: {response.text}")
+            
